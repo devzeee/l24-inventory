@@ -1,9 +1,9 @@
 
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000
 const cors = require('cors');
-require('dotenv').config();
 const db = require('./configs/db')
 const courierProviderRoutes = require('./routers/courierProvider.router'); // Adjust the path as needed
 const parcelRoutes = require('./routers/parcel.router'); // Adjust the path as needed
