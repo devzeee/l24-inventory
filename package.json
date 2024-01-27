@@ -1,0 +1,27 @@
+{
+  "name": "l24-inventory",
+  "version": "1.0.0",
+  "description": "This app is develope to do inventories for parcels come from different suppliers",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devzeee/l24-inventory.git"
+  },
+  "author": "Zeeshan Chaudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devzeee/l24-inventory/issues"
+  },
+  "homepage": "https://github.com/devzeee/l24-inventory#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  }
+}
