@@ -22,8 +22,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/courierProviders', courierProviderRoutes);
 app.use('/api/parcels', parcelRoutes);
 
-app.get('/', (req, res) => {
-   res.send('hello from simple server')
+app.get('/api/health-check', (req, res) => {
+   res.send('API End point is working')
 })
 
 // Error handling middleware should be the last piece of middleware
