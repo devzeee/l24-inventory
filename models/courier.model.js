@@ -6,11 +6,7 @@ const courierSchema = new mongoose.Schema({
         required: true,
         unique: true // Ensuring each courier provider's name is unique
     },
-    contactInfo: {
-        phone: String,
-        email: String,
-        address: String
-    },
+    phone: String,
     totalParcel: {
         type: Number,
         default: 0 // Defaulting to 0, assuming new providers start with no parcels
